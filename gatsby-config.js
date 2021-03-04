@@ -220,18 +220,7 @@ module.exports = {
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
-    // https://manifest-validator.appspot.com/
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `GatsbyThemeNaked`,
-        short_name: `NakedTheme`,
-        start_url: `/`,
-        background_color: `#FFF7F0`,
-        theme_color: `#F3824A`,
-        display: `standalone`,
-      },
-    },
+ 
     `gatsby-plugin-offline`,
   ],
 }

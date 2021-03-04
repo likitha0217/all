@@ -1,6 +1,6 @@
 import React from "react"
 
-import Instagram from "../widgets/instagram"
+
 import MailChimpSignUp from "../widgets/mailchimp-sign-up"
 import LatestPosts from "../widgets/latest-posts"
 
@@ -16,7 +16,7 @@ const Aside = ({ children }) => {
         <Bio />
 
         <LatestPosts />
-        <Instagram />
+    
       </aside>
     </>
   )
